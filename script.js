@@ -8,7 +8,14 @@ botaoDeAcessibilidade.addEventListener('click',function(){
 
 const botaoSelecionado=botaoDeAcessibilidade.getAttribute('aria-expanded')==='true'
 
-
+botaoDeAcessibilidade.satAttribute('aria-expanded', !botaoSelecionado)
 
 })
+
+const aumentaFontBotao=document.getElementById('aumentaar-fonte');
+const diminuirFontBotao=document.getElementById('diminuir-fonte');
+
+const alternarContraste=document.getElementById('alterna-constrante');
+
+
 })

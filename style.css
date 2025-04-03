@@ -1,7 +1,9 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-    --lajanja-claro:#FF862A;
-    
+
+:root{
+    --laranja-claro:#FF862a;
 }
 body{
     font-size: 1rem;
@@ -76,3 +78,4 @@ section{
         url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
 }
+
